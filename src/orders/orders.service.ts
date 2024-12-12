@@ -20,8 +20,7 @@ export class OrdersService {
           id: createOrderDto.asset_id,
         },
       });
-    } catch (error) {
-      console.error(error);
+    } catch {
       throw new BadRequestException('Asset not found');
     }
 

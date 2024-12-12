@@ -50,4 +50,4 @@ Crie o arquivo api.http para fazer as chamadas HTTP. Ao rodar o "docker compose 
 
 ### Comando
 
-- docker compose up
+- docker compose up --build
